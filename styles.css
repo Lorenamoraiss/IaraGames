@@ -1,0 +1,434 @@
+body {
+  background-color: #0D161F;
+  font-family: 'Inria Sans', sans-serif;
+  font-size: 21px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.top-menu {
+  background-color: #24303C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+  height: 80px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.logo img {
+  width: 134px;
+  height: auto;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.logo-text span {
+  font-weight: bold;
+  font-size: 31px;
+}
+
+.menu-icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 32px;
+}
+
+.menu-links {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-left: auto;
+}
+
+.menu-links a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 24px;
+}
+
+.menu-links a:hover {
+  color: #1DD70C;
+}
+
+.menu-links img {
+  width: 20px;
+  height: 20px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.download-icon {
+  width: 40px;
+  height: 40px;
+  background-color: #47525e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.loginButton {
+  background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 21px;
+  border-radius: 20px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: #169a0a;
+}
+
+.acessibilidade {
+  position: absolute;
+  right: 36px;
+  bottom: -53px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.acessibilidade button {
+  background: none;
+  color: #ffffff;
+  padding: 4px 8px;
+  font-size: 21px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.acessibilidade button:hover {
+  color: #1DD70C;
+  border-color: #1DD70C;
+}
+
+.acessibilidade img {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+}
+.banner-inicial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 0;
+  margin-top: 70px;
+
+}
+
+.banner-inicial img {
+  width: 100%;
+  max-width: 1000px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #1dd70c44;
+}
+
+
+/* BANNER APRESENTAÇÃO */
+
+.container-apresentacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #24303C;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #1dd70c44;
+  padding: 70px 40px;
+  margin: 60px auto;
+  max-width: 80%;
+  gap: 190px;
+}
+
+.texto-apresentacao {
+  width: 50%;
+  color: #ffffff;
+  word-wrap: break-word;
+}
+
+.texto-apresentacao h2 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.texto-apresentacao p {
+  font-size: 19px;
+  margin-top: 15px;
+  line-height: 1.6;
+  color: #d0d0d0;
+}
+
+.imagens-apresentacao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.iara-logo {
+  width: 300px;
+  height: auto;
+}
+
+.fiap-logo {
+  width: 200px;
+  height: auto;
+}
+
+
+/* PROMOS DO MêS */
+
+
+
+.promocoes {
+  padding: 90px 0;
+  text-align: left;
+  color: white;
+}
+
+.promocoes h2 {
+  font-size: 28px;
+  margin-bottom: 130px;
+  margin-left: 10%;
+
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.card {
+  position: relative;
+  width: 450px;
+}
+
+.desconto {
+  position: absolute;
+  background-color: #AE2232;
+  color: white;
+  padding: 8px 10px;
+  font-size: 14px;
+  font-weight: 500;
+  top: -55px;
+  left: 0;
+  border-radius: 4px;
+}
+
+
+.thumb {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.titulo {
+  margin-top: 25px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.precos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-top: 8px;
+  padding: 0 10px;
+}
+
+.preco-antigo {
+  color: gray;
+  text-decoration: line-through;
+  margin-right: 8px;
+}
+
+.preco-novo {
+  color: #1DD70C;
+  font-weight: bold;
+}
+
+.icone-carrinho {
+  width: 28px;
+  height: 28px;
+  background-color: #1DD70C;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.icone-carrinho:hover{
+  box-shadow: 0 0 10px #1dd70c44;
+}
+
+.container-botao {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.vermais {
+  display: flex;
+  align-items: center;              /* Centraliza o texto verticalmente com a imagem */
+  gap: 10px;                        /* Espaço entre texto e imagem */
+  background-color: #24303C;
+  color: #ffffff;
+  border: solid 2px #1CB80E;
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 10px 24px;               /* Aumenta o espaço interno do botão */
+  font-size: 16px;
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+.vermais:hover{
+  box-shadow: 0 0 10px #1dd70c44;
+
+}
+
+.icone-mais {
+  width: 28px;
+  height: 28px;
+}
+
+
+/* LANÇAMENTOS */
+
+.container-lancamentos {
+  padding: 90px 0;
+  text-align: left;
+  color: white;
+}
+
+
+.container-lancamentos h2 {
+  font-size: 28px;
+  margin-bottom: 130px;
+  margin-left: 10%;
+}
+
+.cards-lancamentos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+
+.card-jogo {
+  background-color: #1c262f;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imagem-jogo {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.info-jogo {
+  padding: 10px;
+  background-color: #1c262f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info-jogo p {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+ margin-top: 15px;
+ margin-left: 5px;
+}
+
+.preco-carrinho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-top: -6px;
+  padding: 0 10px;
+}
+
+
+.icone-carrinho {
+  width: 28px;
+  height: 28px;
+  background-color: #1DD70C;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.icone-carrinho:hover {
+  box-shadow: 0 0 10px #1dd70c44;
+}
+
+
+
+.footer {
+  background-color: #1c262f;
+  padding: 40px 60px;
+  margin-top: 160px;
+}
+
+.footer-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 83px;
+  color: white;
+  flex-wrap: wrap;
+  }
+
+.footer-logo {
+  display: flex;
+    align-items: center;
+    gap: 14px;
+    color: white;
+    font-weight: bold;
+    font-size: 31px;
+}
+
+.footer-logo img {
+  width: 134px;
+  height: auto;
+}
+
+.footer-linha {
+  width: 4px;
+  height: 65px;
+  background-color: white;
+
+}
+
+.footer-info {
+  text-align: left; 
+ font-size: 20px;
+  color: white;
+  line-height: 0.8;
+}

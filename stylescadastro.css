@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inria Sans', sans-serif;
+}
+
+body {
+    background-color: #0D161F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-box {
+    border-color: #166dc4;
+    background-color: transparent;
+    padding: 40px;
+    border: 3px solid #24303C;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    
+
+}
+
+h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.logo {
+    width: 80px;
+    margin: 10px 0;
+}
+
+.brand-name {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    color: #fff;
+    font-size: 17px;
+    text-align: left;
+    margin-top: 10px;
+    font-weight: bold;
+
+
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 2px solid #24303C;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.name-fields {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+   
+}
+
+.name-fields div {
+    width: 48%;
+}
+
+.login-btn {
+    background-color: #1DD70C;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #17b00b;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:visited {
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+
+
+.formulario{
+    padding: 12px;
+}
+
+.senha{
+    text-align: left;
+    color: #fff;
+    margin-top: 22px;
+}
+
+
+
+
+.social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-btn:hover {
+    background-color: #222;
+}
+
+.google {
+    border-color: #24303C;
+}
+
+.facebook {
+    border-color: #24303C;
+}
+
+.signup-text {
+    text-align: center;
+    margin-top: 40px;
+    color: #3c4349;
+}
+
+.signup-text a {
+    color: #00ffff;
+    text-decoration: underline;
+}
+
+
+
+.social-btn img.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.google {
+    border-color: #24303C;
+}
+
+.facebook {
+    border-color: #24303C;
+}
+
+
+
+.acessibilidade button {
+    background: none;
+    color: #ffffff;
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }

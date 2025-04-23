@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="stylescadastro.css">
+</head>
+<body>
+    <div class="container">
+        
+    
+        <div class="form-box">
+            <h1>CRIAR CONTA</h1>
+            <img src="img/IaraLogo.PNG" alt="Logo Iara Games" class="logo">
+            <h2 class="brand-name">Iara Games</h2>
+            
+       <div class="formulario">
+        <div class="acessibilidade">
+            <button id="aumentar-fonte">+A</button> |
+            <button id="diminuir-fonte">A-</button>
+        </div>
+        <form action="index.html" method="get">
+                <label for="email">e-mail:</label>
+                <input type="email" id="email" name="email" placeholder="seuemail@gmail.com" required>
+
+                <label for="birthdate">data de nascimento:</label>
+                <input type="text" id="birthdate" name="birthdate" placeholder="00/00/0000" required>
+
+                <div class="name-fields">
+                    <div>
+                        <label for="name">nome:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="nickname">nickname:</label>
+                        <input type="text" id="nickname" name="nickname" required>
+                    </div>
+                </div>
+                <p class="senha">Defina uma senha de 8 dígitos</p>
+                <label for="password">senha:</label>
+                <input type="password" id="password" name="password" placeholder="********" required>
+
+                <button type="submit" class="login-btn">LOGIN</button>
+                
+            </form>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
