@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet"/>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <title>Biblioteca de jogos</title>
+    <link rel="stylesheet" href="./biblioteca.css">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <div class="top-menu">
+    <img src="img/menu.png" alt="Menu" class="menu-icon">
+  
+    <div class="logo">
+      <img src="img/IaraLogo.png" alt="Logo">
+      <div class="logo-text">
+        <span>Iara</span>
+        <span>Games</span>
+      </div>
+    </div>
+  
+    <div class="menu-links">
+      <a href="#">SOBRE NÓS</a>
+      <a href="#">COMUNIDADE</a>
+      <a href="#">JOGOS</a>
+      <a href="#">SUPORTE</a>
+  
+      <div class="actions">
+        <div class="download-icon">
+          <img src="img/download.png" alt="Download">
+        </div>
+        <button id="loginButton" class="loginButton">Login</button>
+      </div>
+    </div>
+  
+    <div class="acessibilidade">
+      <button id="aumentar-fonte">+A</button> |
+      <button id="diminuir-fonte">A-</button>
+
+    </div>
+    
+  </div> 
+  <div class="container mt-5">
+  <div class="mb-4">
+  <input type="text" class="form-control w-25" placeholder="O que quer jogar hoje?"aria-label="Buscar">
+   
+    </button>
+</div>
+
+  <h3 class="text-white text-uppercase fw-bold mb-4">Nossos Últimos Lançamentos</h3>
+
+  <div class="row">
+    <div class="col-lg-6 mb-4">
+      <img src="img/16.png" alt="Starfield" class= "img-fluid">
+    </div>
+
+   <div class="col-lg-6">
+      <div class="row g-3 mb-2">
+        <div class="col-6">
+          <img src="img/19.jpeg" alt="Dead Gods" class="img-fluid" >
+        </div>
+        <div class="col-6">
+          <img src="img/Bravery.jpg" alt="Bravery" class="img-fluid" >
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-6">
+          <img src="img/untilDead.jpeg" alt="Until Dead" class="img-fluid" >
+        </div>
+        <div class="col-6">
+          <img src="img/pocketBravery.jpg" alt="Pocket Bravery" class="img-fluid" >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<h3 class="lista-jogos"> LISTA DE JOGOS </h3>
+<hr class="separação">
+
+
+<div class="container mt-4">
+  <h4>Filtrar Jogos</h4>
+  <form class="row g-3">
+    <!-- Gênero -->
+    <div class="col-md-3">
+      <label for="genero" class="form-label">Gênero</label>
+      <select id="genero" class="form-select">
+        <option selected>Todos</option>
+        <option>Ação</option>
+        <option>Aventura</option>
+        <option>RPG</option>
+        <option>Esportes</option>
+        <option>Corrida</option>
+      </select>
+    </div>
+
+    <!-- Plataforma -->
+    <div class="col-md-3">
+      <label for="plataforma" class="form-label">Plataforma</label>
+      <select id="plataforma" class="form-select">
+        <option selected>Todas</option>
+        <option>PC</option>
+        <option>PlayStation</option>
+        <option>Xbox</option>
+        <option>Nintendo Switch</option>
+      </select>
+    </div>
+
+    <!-- Preço Mínimo -->
+    <div class="col-md-2">
+      <label for="precoMin" class="form-label">Preço mín.</label>
+      <input type="number" class="form-control" id="precoMin" placeholder="0">
+    </div>
+
+    <!-- Preço Máximo -->
+    <div class="col-md-2">
+      <label for="precoMax" class="form-label">Preço máx.</label>
+      <input type="number" class="form-control" id="precoMax" placeholder="200">
+    </div>
+
+    <!-- Ordenação -->
+    <div class="col-md-2">
+      <label for="ordenar" class="form-label">Ordenar por</label>
+      <select id="ordenar" class="form-select">
+        <option selected>Mais recentes</option>
+        <option>Mais populares</option>
+        <option>Melhor avaliados</option>
+        <option>Mais baratos</option>
+      </select>
+    </div>
+
+    <!-- Botão -->
+    <div class="col-12 d-flex justify-content-end">
+      <button type="submit" class="btn btn-primary">Aplicar Filtros</button>
+    </div>
+  </form>
+</div>
+
+<div class="container mt-5">
+  <h4 class="text-white fw-bold mb-4">MAIS JOGADOS</h4>
+  <div class="row row-cols-2 row-cols-sm-3 row-cols-md-5 g-4">
+    
+    <!-- Card 1 -->
+    <div class="col">
+      <div class="game-card ">
+        <img src="img/3.png" class="card-img-top rounded" alt="Horizon Chase">
+        <div class="card-body p-2">
+          <h6 class="card-title mb-1">Horizon Chase</h6>
+          <div class="price-tag">R$ 28,90</div>
+          <div class="carrinho-compra"> <img src="img/carrinho.png" alt="Ícone carrinho de compra"></div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="col">
+      <div class="game-card">
+        <img src="img/jogo3.png" class="card-img-top rounded" alt="Kaze">
+        <div class="card-body p-2">
+          <h6 class="card-title mb-1">Kaze and the Wild Masks</h6>
+          <div class="price-tag">R$ 78,50</div>
+          <div class="carrinho-compra"> <img src="img/carrinho.png" alt="Ícone carrinho de compra"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="game-card">
+        <img src="img/4.png" class="card-img-top rounded" alt="Chroma Squad">
+        <div class="card-body p-2">
+          <h6 class="card-title">Chroma Squad</h6>
+          <div class="price-tag">R$ 178,90</div>
+          <div class="carrinho-compra"> <img src="img/carrinho.png" alt="Ícone carrinho de compra"></div>
+        </div>
+      </div>
+    </div>
+
+<div class="col">
+      <div class="game-card">
+        <img src="img/14.png" class="card-img-top rounded" alt="Scroals Soction">
+        <div class="card-body p-2">
+          <h6 class="card-title mb-1">Scroals Soction</h6>
+          <div class="price-tag">R$ 88,90</div>
+          <div class="carrinho-compra"> <img src="img/carrinho.png" alt="Ícone carrinho de compra"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="game-card">
+        <img src="img/15.png" class="card-img-top rounded" alt="Mystic Quest">
+        <div class="card-body p-2">
+          <h6 class="card-title mb-1">Mystic Quest </h6>
+          <div class="price-tag">R$ 38,20</div>
+          <div class="carrinho-compra"> <img src="img/carrinho.png" alt="Ícone carrinho de compra"></div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="container promocoes">
+  <h2 class="text-white">PROMOÇÕES DO MÊS</h2>
+
+  <div class="row justify-content-center g-4 mt-5">
+    <!-- Card 1 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card bg-dark text-white p-3 position-relative">
+        <span class="desconto">70% OFF</span>
+        <img class="thumb" src="img/superMomb.jpg" alt="Super Mombo Quest">
+        <p class="titulo">Super Mombo Quest</p>
+        <div class="precos">
+          <div>
+            <span class="preco-antigo">R$180,90</span>
+            <span class="preco-novo">R$54,27</span>
+          </div>
+          <img src="img/bag.png" alt="Carrinho" class="icone-carrinho">
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card bg-dark text-white p-3 position-relative">
+        <span class="desconto">30% OFF</span>
+        <img class="thumb" src="img/BemFeito.jpg" alt="Bem Feito">
+        <p class="titulo">Bem Feito</p>
+        <div class="precos">
+          <div>
+            <span class="preco-antigo">R$180,90</span>
+            <span class="preco-novo">R$126,63</span>
+          </div>
+          <img src="img/bag.png" alt="Carrinho" class="icone-carrinho">
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-md-6 col-lg-4">
+      <div class="card bg-dark text-white p-3 position-relative">
+        <span class="desconto">50% OFF</span>
+        <img class="thumb" src="img/Bravery.jpg" alt="No Place for Bravery">
+        <p class="titulo">No Place for Bravery</p>
+        <div class="precos">
+          <div>
+            <span class="preco-antigo">R$180,90</span>
+            <span class="preco-novo">R$90,45</span>
+          </div>
+          <img src="img/bag.png" alt="Carrinho" class="icone-carrinho">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-botao">
+    <button class="vermais">
+      Ver lista completa  
+      <img src="img/add.png" class="icone-mais">
+    </button>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container mt-5">
+  <h4 class="text-white fw-bold mb-4 text-center">MAIS JOGADOS</h4>
+  
+  <!-- Container Flex que centraliza os cards -->
+  <div class="container-jogos-final">
+    
+    <!-- Card 1 -->
+    <div class="game-card">
+      <img src="img/3.png" class="card-img-top rounded" alt="Horizon Chase">
+      <div class="card-body p-2">
+        <h6 class="card-title mb-1">Horizon Chase</h6>
+        <div class="price-tag">R$ 28,90</div>
+        <div class="carrinho-compra">
+          <img src="img/carrinho.png" alt="Ícone carrinho de compra">
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="game-card">
+      <img src="img/jogo3.png" class="card-img-top rounded" alt="Kaze">
+      <div class="card-body p-2">
+        <h6 class="card-title mb-1">Kaze and the Wild Masks</h6>
+        <div class="price-tag">R$ 78,50</div>
+        <div class="carrinho-compra">
+          <img src="img/carrinho.png" alt="Ícone carrinho de compra">
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="game-card">
+      <img src="img/4.png" class="card-img-top rounded" alt="Chroma Squad">
+      <div class="card-body p-2">
+        <h6 class="card-title">Chroma Squad</h6>
+        <div class="price-tag">R$ 178,90</div>
+        <div class="carrinho-compra">
+          <img src="img/carrinho.png" alt="Ícone carrinho de compra">
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="game-card">
+      <img src="img/14.png" class="card-img-top rounded" alt="Scroals Soction">
+      <div class="card-body p-2">
+        <h6 class="card-title mb-1">Scroals Soction</h6>
+        <div class="price-tag">R$ 88,90</div>
+        <div class="carrinho-compra">
+          <img src="img/carrinho.png" alt="Ícone carrinho de compra">
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="game-card">
+      <img src="img/15.png" class="card-img-top rounded" alt="Mystic Quest">
+      <div class="card-body p-2">
+        <h6 class="card-title mb-1">Mystic Quest</h6>
+        <div class="price-tag">R$ 38,20</div>
+        <div class="carrinho-compra">
+          <img src="img/carrinho.png" alt="Ícone carrinho de compra">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+ <footer class="footer">
+    <div class="footer-conteudo">
+
+      <div class="footer-logo">
+        <img src="img/IaraLogo.png" alt="Logo Iara Games" />
+        <span>Iara<br />Games</span>
+      </div>
+
+      <div class="footer-linha"></div>
+
+      <div class="footer-info">
+        <p>©2025 Iara Games</p>
+        <p>by Ana Beatriz Lisboa de Mello - RM 565816</p>
+      </div>
+
+    </div>
+  </footer>
+  
+  <script src="script.js"></script>
+
+</body>
+</html>

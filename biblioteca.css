@@ -24,7 +24,7 @@ body {
 }
 
 .logo img {
-  width: 120px;
+  width: 100px;
   height: auto;
 }
 
@@ -131,76 +131,98 @@ body {
   height: 26px;
   cursor: pointer;
 }
-.banner-inicial {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 90px 0;
-  margin-top: 70px;
 
+
+
+.container {
+  max-width: 1400px;
+  margin: auto;
 }
 
-.banner-inicial img {
+
+
+.col-lg-6 img,
+.col-6 img {
+  transition: transform 0.3s ease;
+}
+
+.col-lg-6 img:hover,
+.col-6 img:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.col-lg-6:first-child img {
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.col-lg-6 > .row > .col-6 img {
   width: 100%;
-  max-width: 1000px;
-  border-radius: 12px;
-  box-shadow: 0 0 10px #1dd70c44;
+  height: 250px;
+  border-radius: 10px;
 }
 
-
-/* BANNER APRESENTAÇÃO */
-
-.container-apresentacao {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #24303C;
-  border-radius: 8px;
-  box-shadow: 0 0 10px #1dd70c44;
-  padding: 70px 40px;
-  margin: 60px auto;
-  max-width: 80%;
-  gap: 190px;
+.mb-4 {
+  border-radius: 30px;
 }
 
-.texto-apresentacao {
-  width: 50%;
-  color: #ffffff;
-  word-wrap: break-word;
+.input-group .form-control {
+  border-right: none;
 }
 
-.texto-apresentacao h2 {
-  font-size: 48px;
-  margin-bottom: 15px;
+.input-group .btn {
+  border-left: none;
 }
 
-.texto-apresentacao p {
-  font-size: 19px;
-  margin-top: 15px;
-  line-height: 1.6;
-  color: #d0d0d0;
+.lista-jogos {
+  color: #23e412;
+  text-align: center;
+  padding: 40px;
+  padding-top: 100px;
+  font-size: 50px;
 }
 
-.imagens-apresentacao {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 30px;
+.separação {
+  border-top: 10px solid #ffffff;
+  width: 500px;
+  margin-left: 720px;
+  padding-bottom: 100px;
+  HEIGHT: 100px;
 }
 
-.iara-logo {
-  width: 300px;
+.game-card {
+  background-color: #1E2A38;
+  border-radius: 15px;
+  position: relative;
+  
+}
+ 
+.carrinho-compra {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.carrinho-compra img {
+  width: 30px; 
   height: auto;
 }
 
-.fiap-logo {
-  width: 200px;
-  height: auto;
+.price-tag {
+  color: chartreuse;
+}
+
+.card-title {
+  font-size: 21px;
+  
 }
 
 
 /* PROMOS DO MêS */
-
 
 
 .promocoes {
@@ -210,22 +232,42 @@ body {
 }
 
 .promocoes h2 {
-  font-size: 28px;
-  margin-bottom: 130px;
-  margin-left: 10%;
+  font-size: 35px;
+  margin-bottom: 50px;
+  margin-left: 5%;
 
 }
+
+.container.promocoes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+.container-jogos-final {
+  
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center; 
+}
+
+
 
 .cards-container {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
   gap: 50px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .card {
-  position: relative;
-  width: 300px;
+  
+  width: 450px;
+  
 }
 
 .desconto {
@@ -313,83 +355,6 @@ body {
   width: 28px;
   height: 28px;
 }
-
-
-/* LANÇAMENTOS */
-
-.container-lancamentos {
-  padding: 90px 0;
-  text-align: left;
-  color: white;
-}
-
-
-.container-lancamentos h2 {
-  font-size: 28px;
-  margin-bottom: 130px;
-  margin-left: 10%;
-}
-
-.cards-lancamentos {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 70px;
-}
-
-.card-jogo {
-  background-color: #1c262f;
-  border-radius: 8px;
-  overflow: hidden;
-  width: 280px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.imagem-jogo {
-  width: 100%;
-  border-radius: 8px 8px 0 0;
-}
-
-.info-jogo {
-  padding: 10px;
-  background-color: #1c262f;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.info-jogo p {
-  color: white;
-  font-size: 20px;
-  font-weight: 500;
- margin-top: 15px;
- margin-left: 5px;
-}
-
-.preco-carrinho {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; 
-  margin-top: -6px;
-  padding: 0 10px;
-}
-
-
-.icone-carrinho {
-  width: 28px;
-  height: 28px;
-  background-color: #1DD70C;
-  padding: 6px;
-  border-radius: 50%;
-}
-
-.icone-carrinho:hover {
-  box-shadow: 0 0 10px #1dd70c44;
-}
-
-
 
 .footer {
   background-color: #1c262f;
