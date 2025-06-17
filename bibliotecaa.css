@@ -1,0 +1,3224 @@
+*,
+*:after,
+*:before {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+body{
+font-size: 100%;
+list-style-type: none
+}
+
+
+body {
+background-color: #00030F;
+font-family: 'Inria Sans', sans-serif;
+
+}
+
+.nav-link:hover {
+color: #00ff84;
+}
+
+
+h1 {
+line-height: 1.2;
+}
+
+
+
+.navbar-toggler {
+background-color: #1DD70C;
+gap: 0.5rem;
+}
+
+#loginButton {
+    background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 21px;
+  border-radius: 20px;
+  padding: 0.3rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.hero {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero p, .hero h1 {
+  white-space: normal;
+  word-break: break-word;
+}
+
+
+#hero-conteudo {
+padding-left: 3rem;
+
+}
+
+.bg-image {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: url('img/capa-lista.png')  right center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 145vh;
+width: 100%;
+z-index: -1;
+}
+
+
+
+.btn-explorar {
+background-color: #1DD70C;
+color: #ffffff;
+font-weight: bold;
+border-radius: clamp(20px, 5vw, 40px);
+padding: clamp(0.5rem, 1vw, 1rem) clamp(0.5rem, 3vw, 3rem);
+font-size: clamp(0.8rem, 2vw, 1.2rem);
+
+}
+
+.btn-explorar:hover {
+background-color: #0d7c16;
+color: #001525;
+}
+
+.titulo-custom {
+font-size: 80px;
+font-weight: 800;
+color: #ffffff;
+padding-bottom: 1.3rem;
+}
+
+.subtitulo-custom {
+font-size: 21px;
+color: #ffffff;
+padding-bottom: 1rem;
+
+}
+
+
+
+
+#container_jogos {
+  margin-top: 400px;
+  
+}
+
+.text-center {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  
+}
+
+.sub-text {
+  font-size: 20px;
+  font-weight: lighter;
+ margin-bottom: 5rem;
+}
+
+.filter-btn{
+  padding: 0.8rem 4rem 0.8rem 4rem;
+  border-radius: 18px;
+  gap: 20px;
+}
+
+.card {
+      background-color: #001525;
+      border: none;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      position: relative;
+    }
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+
+
+
+
+    
+    .card-titulo {
+  font-size: 24px;
+  color: white;
+  padding-top: 1rem;
+}
+    .badge {
+      font-size: 0.9rem;
+    }
+    .price-old {
+      text-decoration: line-through;
+      color: #aaa;
+      font-size: 1rem;
+    }
+    .price-new {
+      color: #1DD70C;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    .filter-btn.active {
+      background-color: #1DD70C;
+      color: #ffffff;
+      border-color: #1DD70C;
+      
+    }
+
+#sort-select{
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  border-radius: 10px;
+  margin-top: 1.3rem;
+}
+
+
+
+
+#game-list {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list2{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list3{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+.bg-promo {
+  font-size: 18px;
+  background-color: #AE2232;
+}
+
+
+.text-warning {
+  padding-left: 2rem;
+  padding-bottom: -0.9rem;
+  margin-top: 0.5rem;
+}
+
+.text-small {
+  color: gray;
+  margin-top: 0.9rem;
+}
+
+.price-box {
+  display: flex;
+  margin-top: 1.6rem;
+  gap:10px;
+  
+}
+
+.btn-carrinho {
+  background-color: #1CB80E; 
+  border: none;
+  border-radius: 50%;
+  padding: 0.8rem;
+  color: white; 
+}
+
+.btn-carrinho:hover {
+  background-color: #0d7c16;
+  
+}
+
+.game-card-em-breve-saci {
+  background-color: #001525;
+  border-radius: 2%;
+  margin-left: 5rem;
+  padding: 2rem 1rem 2rem 2rem;
+  
+          
+  height: auto;
+  
+
+}
+
+.game-card-em-breve {
+  background-color: #001525;
+  border-radius: 2%;
+  width: 23rem;
+  height: auto;
+  
+  
+
+}
+
+.em-breve{
+   background-image: url('img/gradiente lista.png'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 2200px;
+      width: 100%;
+      color: white;
+      margin-top: 30rem;
+      margin: 0;
+    
+}
+
+
+.img-fluid {
+  width: 100%;
+  height: 0%;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 1150px; 
+  max-height: 520px;
+ height: auto; width: 100%; 
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+
+.tag-acao {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  margin-right: 0.5rem;
+  
+}
+
+.tag-duo {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  
+}
+
+.tag-18{
+   padding: 0.2rem 1.2rem;
+  background-color: #AE2232;
+  border-radius: 10%;
+}
+
+.box-prevenda{
+  display: flex;
+  flex-wrap: wrap;            
+  gap: 1rem;                  
+  align-items: center;        
+  justify-content: space-between;
+}
+
+
+
+.game-card {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+
+
+
+.btn-pre-venda {
+      border: 1px solid #1DD70C;
+      color: #1DD70C;
+      border-radius: 20px;
+      padding: 0.6rem 9rem 0.6rem 8rem;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn-pre-venda:hover {
+      background-color: #0d7c16;
+    }
+
+    .thumbnail-img {
+      width: 100%;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+
+
+
+
+
+
+
+.footerr {
+  padding-top: 10rem;
+}
+
+#footer_logo {
+  margin-left: 9rem;
+  padding-bottom: 4rem;
+}
+
+#footer_contato {
+  padding-top: 1rem;
+  font-size: 30px;
+  padding-bottom: 0.8rem;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  margin-top: 1.5rem;
+  gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  opacity: 64%;
+}
+
+.d-flex input{
+  height: 3.5em;
+  width: 18em;
+  background-color: transparent;
+
+}
+
+
+.d-flex2 button {
+  background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+#footer_redes{
+  padding-left: 9rem;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  display: flex;
+}
+
+
+
+
+.quero {
+  background-color: #1CB80E;
+}
+
+.quero:hover {
+  background-color: #0d7c16;
+}
+
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  outline: none;
+}
+
+.social-icon:focus,
+.social-icon:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.social-icon:hover {
+  background-color: #1CB80E;
+  color: white;
+  border-color: #1CB80E;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* xs: até 575.98px (celulares em pé) */
+@media (max-width: 575.98px) {
+  .navbar-toggler {
+background-color: #1DD70C;
+gap: 0rem;
+}
+
+
+
+#loginButton {
+    background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 0.3rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.nav-item{
+  font-size: 5px;
+}
+
+.hero {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero p, .hero h1 {
+  white-space: normal;
+  word-break: break-word;
+}
+
+
+#hero-conteudo {
+padding-left: 3rem;
+
+}
+
+.bg-image {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: url('img/capa-lista.png')  right center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 145vh;
+width: 100%;
+z-index: -1;
+opacity: 20%;
+}
+
+
+
+.btn-explorar {
+background-color: #1DD70C;
+color: #ffffff;
+font-weight: bold;
+border-radius: clamp(20px, 5vw, 40px);
+padding: clamp(0.5rem, 1vw, 1rem) clamp(0.5rem, 3vw, 3rem);
+font-size: clamp(0.8rem, 2vw, 1.2rem);
+
+}
+
+.btn-explorar:hover {
+background-color: #0d7c16;
+color: #001525;
+}
+
+.titulo-custom {
+font-size: 65px;
+font-weight: 800;
+color: #ffffff;
+padding-bottom: 1.3rem;
+}
+
+.subtitulo-custom {
+font-size: 18px;
+color: #ffffff;
+padding-bottom: 1rem;
+
+}
+
+
+
+
+#container_jogos {
+  margin-top: 400px;
+  
+}
+
+.text-center {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  
+}
+
+.sub-text {
+  font-size: 20px;
+  font-weight: lighter;
+ margin-bottom: 5rem;
+}
+
+.filter-btn{
+  padding: 0.8rem 4rem 0.8rem 4rem;
+  border-radius: 18px;
+  gap: 20px;
+}
+
+.card {
+      background-color: #001525;
+      border: none;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      position: relative;
+    }
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+
+
+.game-card1{
+  width: 80%;
+  
+}
+
+.game-card{
+  width: 80%;
+}
+
+    
+    .card-titulo {
+  font-size: 24px;
+  color: white;
+  padding-top: 1rem;
+}
+    .badge {
+      font-size: 0.9rem;
+    }
+    .price-old {
+      text-decoration: line-through;
+      color: #aaa;
+      font-size: 1rem;
+    }
+    .price-new {
+      color: #1DD70C;
+      font-weight: bold;
+      font-size: 24px;
+      
+    }
+    .filter-btn.active {
+      background-color: #1DD70C;
+      color: #ffffff;
+      border-color: #1DD70C;
+      
+    }
+
+#sort-select{
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  border-radius: 10px;
+  margin-top: 1.3rem;
+}
+
+
+
+
+#game-list {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list2{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list3{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+.bg-promo {
+  font-size: 18px;
+  background-color: #AE2232;
+}
+
+
+.text-warning {
+  padding-left: 2rem;
+  padding-bottom: -0.9rem;
+  margin-top: 0.5rem;
+}
+
+.text-small {
+  color: gray;
+  margin-top: 0.9rem;
+}
+
+.price-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.6rem;
+  gap:10px;
+  
+}
+
+.btn-carrinho {
+  background-color: #1CB80E; 
+  border: none;
+  border-radius: 50%;
+  padding: 0.8rem;
+  color: white; 
+}
+
+.btn-carrinho:hover {
+  background-color: #0d7c16;
+  
+}
+
+.em-breve-titulo{
+  margin-right: 1rem;
+  padding-right: 1rem;
+  
+}
+
+.game-card-em-breve-saci {
+  background-color: #001525;
+  border-radius: 2%;
+  margin-left: 1.8rem;
+  padding: 2rem 1rem 2rem 2rem;
+  height: 740px;
+  width: 500px;
+  
+
+}
+
+.game-card-em-breve {
+  background-color: #001525;
+  border-radius: 2%;
+  width: 31rem;
+  height: auto;
+  
+  
+
+}
+
+.card-lateral{
+  padding-left: 2.2rem;
+  padding-top: 2.5rem;
+  
+}
+
+
+.em-breve{
+   background-image: url('img/gradiente lista.png'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 2200px;
+      width: 100%;
+      color: white;
+      margin-top: 30rem;
+      margin: 0;
+    
+}
+
+
+.img-fluid {
+  border-radius: 1rem;
+  max-width: 1150px; 
+  height: 450px;
+  width: 100%; 
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.text-saci{
+  font-size: 18px;
+}
+
+
+.tag-acao {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  margin-right: 0.5rem;
+  
+}
+
+.tag-duo {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  
+}
+
+.tag-18{
+   padding: 0.2rem 1.2rem;
+  background-color: #AE2232;
+  border-radius: 10%;
+}
+
+.box-prevenda{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;            
+  gap: 1rem;                  
+  align-items: start;        
+  justify-content: space-between;
+}
+
+
+
+.game-card {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+.main-highlight{
+  width: 580px;
+}
+
+
+.btn-pre-venda {
+      border: 1px solid #1DD70C;
+      color: #1DD70C;
+      border-radius: 20px;
+      padding: 0.6rem 11rem 0.6rem 11rem;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+}
+
+    .btn-pre-venda:hover {
+      background-color: #0d7c16;
+    }
+
+    .thumbnail-img {
+      width: 100%;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    
+.footerr {
+  padding-top: 20rem;
+}
+
+#footer_logo {
+  margin-left: 2.8rem;
+  padding-left: 0rem;
+
+}
+
+#footer_contato {
+  padding-top: 1rem;
+  font-size: 30px;
+  padding-bottom: 0.8rem;
+}
+
+.footer-box{
+ width: 790px;
+}
+
+
+
+.list-unstyled {
+  padding-left: 0;
+  margin-top: 1.5rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  opacity: 64%;
+}
+
+
+.quick-links {
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+
+.d-flex input{
+  height: 3.5em;
+  width: 18em;
+  background-color: transparent;
+margin-left: 5rem;
+}
+
+
+.d-flex2 button {
+  background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+#footer_redes{
+  padding-left: 9rem;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  display: flex;
+}
+
+.box-inscreva-se h6 {
+ padding-left: 2rem;
+}
+
+.product {
+  margin-right: 2rem;
+}
+
+.right{
+  margin-left: 8rem;
+}
+
+.quero {
+  background-color: #1CB80E;
+  margin-top: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+ margin-left: 1.2rem;
+}
+
+.quero:hover {
+  background-color: #0d7c16;
+}
+
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  outline: none;
+}
+
+.social-icon:focus,
+.social-icon:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.social-icon:hover {
+  background-color: #1CB80E;
+  color: white;
+  border-color: #1CB80E;
+}
+
+
+
+.quero-receber{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+}
+
+}
+
+
+
+/* sm: de 576px até 767.98px (celulares deitados) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-toggler {
+background-color: #1DD70C;
+gap: 0rem;
+}
+
+
+
+#loginButton {
+    background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 0.3rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.nav-item{
+  font-size: 5px;
+}
+
+.hero {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero p, .hero h1 {
+  white-space: normal;
+  word-break: break-word;
+}
+
+
+#hero-conteudo {
+padding-left: 3rem;
+
+}
+
+.bg-image {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: url('img/capa-lista.png')  right center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 145vh;
+width: 100%;
+z-index: -1;
+opacity: 20%;
+}
+
+
+
+.btn-explorar {
+background-color: #1DD70C;
+color: #ffffff;
+font-weight: bold;
+border-radius: clamp(20px, 5vw, 40px);
+padding: clamp(0.5rem, 1vw, 1rem) clamp(0.5rem, 3vw, 3rem);
+font-size: clamp(0.8rem, 2vw, 1.2rem);
+
+}
+
+.btn-explorar:hover {
+background-color: #0d7c16;
+color: #001525;
+}
+
+.titulo-custom {
+font-size: 65px;
+font-weight: 800;
+color: #ffffff;
+padding-bottom: 1.3rem;
+}
+
+.subtitulo-custom {
+font-size: 18px;
+color: #ffffff;
+padding-bottom: 1rem;
+
+}
+
+
+
+
+#container_jogos {
+  margin-top: 400px;
+  
+}
+
+.text-center {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  
+}
+
+.sub-text {
+  font-size: 20px;
+  font-weight: lighter;
+ margin-bottom: 5rem;
+}
+
+.filter-btn{
+  padding: 0.8rem 4rem 0.8rem 4rem;
+  border-radius: 18px;
+  gap: 20px;
+}
+
+.card {
+      background-color: #001525;
+      border: none;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      position: relative;
+    }
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+
+
+.game-card1{
+  width: 80%;
+  
+}
+
+.game-card{
+  width: 80%;
+}
+
+    
+    .card-titulo {
+  font-size: 24px;
+  color: white;
+  padding-top: 1rem;
+}
+    .badge {
+      font-size: 0.9rem;
+    }
+    .price-old {
+      text-decoration: line-through;
+      color: #aaa;
+      font-size: 1rem;
+    }
+    .price-new {
+      color: #1DD70C;
+      font-weight: bold;
+      font-size: 24px;
+      
+    }
+    .filter-btn.active {
+      background-color: #1DD70C;
+      color: #ffffff;
+      border-color: #1DD70C;
+      
+    }
+
+#sort-select{
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  border-radius: 10px;
+  margin-top: 1.3rem;
+}
+
+
+
+
+#game-list {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list2{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list3{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+.bg-promo {
+  font-size: 18px;
+  background-color: #AE2232;
+}
+
+
+.text-warning {
+  padding-left: 2rem;
+  padding-bottom: -0.9rem;
+  margin-top: 0.5rem;
+}
+
+.text-small {
+  color: gray;
+  margin-top: 0.9rem;
+}
+
+.price-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.6rem;
+  gap:10px;
+  
+}
+
+.btn-carrinho {
+  background-color: #1CB80E; 
+  border: none;
+  border-radius: 50%;
+  padding: 0.8rem;
+  color: white; 
+}
+
+.btn-carrinho:hover {
+  background-color: #0d7c16;
+  
+}
+
+.em-breve-titulo{
+  margin-right: 1rem;
+  padding-right: 1rem;
+  
+}
+
+.game-card-em-breve-saci {
+  background-color: #001525;
+  border-radius: 2%;
+  margin-left: 1.8rem;
+  padding: 2rem 1rem 2rem 2rem;
+  height: 740px;
+  width: 500px;
+  
+
+}
+
+.game-card-em-breve {
+  background-color: #001525;
+  border-radius: 2%;
+  width: 31rem;
+  height: auto;
+  
+  
+
+}
+
+.card-lateral{
+  padding-left: 2.2rem;
+  padding-top: 2.5rem;
+  
+}
+
+
+.em-breve{
+   background-image: url('img/gradiente lista.png'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 2200px;
+      width: 100%;
+      color: white;
+      margin-top: 30rem;
+      margin: 0;
+    
+}
+
+
+.img-fluid {
+  border-radius: 1rem;
+  max-width: 1150px; 
+  height: 450px;
+  width: 100%; 
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.text-saci{
+  font-size: 18px;
+}
+
+
+.tag-acao {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  margin-right: 0.5rem;
+  
+}
+
+.tag-duo {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  
+}
+
+.tag-18{
+   padding: 0.2rem 1.2rem;
+  background-color: #AE2232;
+  border-radius: 10%;
+}
+
+.box-prevenda{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;            
+  gap: 1rem;                  
+  align-items: start;        
+  justify-content: space-between;
+}
+
+
+
+.game-card {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+.main-highlight{
+  width: 580px;
+}
+
+
+.btn-pre-venda {
+      border: 1px solid #1DD70C;
+      color: #1DD70C;
+      border-radius: 20px;
+      padding: 0.6rem 11rem 0.6rem 11rem;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+}
+
+    .btn-pre-venda:hover {
+      background-color: #0d7c16;
+    }
+
+    .thumbnail-img {
+      width: 100%;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    
+.footerr {
+  padding-top: 20rem;
+}
+
+#footer_logo {
+  margin-left: 2.8rem;
+  padding-left: 0rem;
+
+}
+
+#footer_contato {
+  padding-top: 1rem;
+  font-size: 30px;
+  padding-bottom: 0.8rem;
+}
+
+.footer-box{
+ width: 790px;
+}
+
+
+
+.list-unstyled {
+  padding-left: 0;
+  margin-top: 1.5rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  opacity: 64%;
+}
+
+
+.quick-links {
+  margin-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+
+.d-flex input{
+  height: 3.5em;
+  width: 18em;
+  background-color: transparent;
+margin-left: 5rem;
+}
+
+
+.d-flex2 button {
+  background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+#footer_redes{
+  padding-left: 9rem;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  display: flex;
+}
+
+.box-inscreva-se h6 {
+ padding-left: 2rem;
+}
+
+.product {
+  margin-right: 2rem;
+}
+
+.right{
+  margin-left: 8rem;
+}
+
+.quero {
+  background-color: #1CB80E;
+  margin-top: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+ margin-left: 1.2rem;
+}
+
+.quero:hover {
+  background-color: #0d7c16;
+}
+
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  outline: none;
+}
+
+.social-icon:focus,
+.social-icon:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.social-icon:hover {
+  background-color: #1CB80E;
+  color: white;
+  border-color: #1CB80E;
+}
+
+
+
+.quero-receber{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+}
+
+}
+
+
+
+/* md: de 768px até 991.98px (tablets) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-toggler {
+background-color: #1DD70C;
+gap: 0rem;
+}
+
+#loginButton {
+    background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 0.3rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.nav-item{
+  font-size: 5px;
+}
+
+.hero {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero p, .hero h1 {
+  white-space: normal;
+  word-break: break-word;
+}
+
+
+#hero-conteudo {
+padding-left: 3rem;
+
+}
+
+.bg-image {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: url('img/capa-lista.png')  right center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 145vh;
+width: 100%;
+z-index: -1;
+opacity: 40%;
+}
+
+
+
+.btn-explorar {
+background-color: #1DD70C;
+color: #ffffff;
+font-weight: bold;
+border-radius: clamp(20px, 5vw, 40px);
+padding: clamp(0.5rem, 1vw, 1rem) clamp(0.5rem, 3vw, 3rem);
+font-size: clamp(0.8rem, 2vw, 1.2rem);
+
+}
+
+.btn-explorar:hover {
+background-color: #0d7c16;
+color: #001525;
+}
+
+.titulo-custom {
+font-size: 65px;
+font-weight: 800;
+color: #ffffff;
+padding-bottom: 1.3rem;
+}
+
+.subtitulo-custom {
+font-size: 18px;
+color: #ffffff;
+padding-bottom: 1rem;
+
+}
+
+
+
+
+#container_jogos {
+  margin-top: 400px;
+  
+}
+
+.text-center {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  
+}
+
+.sub-text {
+  font-size: 20px;
+  font-weight: lighter;
+ margin-bottom: 5rem;
+}
+
+.filter-btn{
+  padding: 0.8rem 4rem 0.8rem 4rem;
+  border-radius: 18px;
+  gap: 20px;
+}
+
+.card {
+      background-color: #001525;
+      border: none;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      position: relative;
+    }
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+
+
+.game-card1{
+  width: 80%;
+  
+}
+
+.game-card{
+  width: 80%;
+}
+
+    
+    .card-titulo {
+  font-size: 24px;
+  color: white;
+  padding-top: 1rem;
+}
+    .badge {
+      font-size: 0.9rem;
+    }
+    .price-old {
+      text-decoration: line-through;
+      color: #aaa;
+      font-size: 1rem;
+    }
+    .price-new {
+      color: #1DD70C;
+      font-weight: bold;
+      font-size: 24px;
+      
+    }
+    .filter-btn.active {
+      background-color: #1DD70C;
+      color: #ffffff;
+      border-color: #1DD70C;
+      
+    }
+
+#sort-select{
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  border-radius: 10px;
+  margin-top: 1.3rem;
+}
+
+
+
+
+#game-list {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list2{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list3{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+.bg-promo {
+  font-size: 18px;
+  background-color: #AE2232;
+}
+
+
+.text-warning {
+  padding-left: 2rem;
+  padding-bottom: -0.9rem;
+  margin-top: 0.5rem;
+}
+
+.text-small {
+  color: gray;
+  margin-top: 0.9rem;
+}
+
+.price-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.6rem;
+  gap:10px;
+  
+}
+
+.btn-carrinho {
+  background-color: #1CB80E; 
+  border: none;
+  border-radius: 50%;
+  padding: 0.8rem;
+  color: white; 
+}
+
+.btn-carrinho:hover {
+  background-color: #0d7c16;
+  
+}
+
+.game-card-em-breve-saci {
+  background-color: #001525;
+  border-radius: 2%;
+  margin-left: 7rem;
+  padding: 2rem 1rem 2rem 2rem;
+  height: 740px;
+  width: 500px;
+  
+
+}
+
+.game-card-em-breve {
+  background-color: #001525;
+  border-radius: 2%;
+  width: 31rem;
+  height: auto;
+  
+  
+
+}
+
+.card-lateral{
+  padding-left: 8rem;
+  padding-top: 2.5rem;
+  
+}
+
+
+.em-breve{
+   background-image: url('img/gradiente lista.png'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 2200px;
+      width: 100%;
+      color: white;
+      margin-top: 30rem;
+      margin: 0;
+    
+}
+
+
+.img-fluid {
+  border-radius: 1rem;
+  max-width: 1150px; 
+  height: 450px;
+  width: 100%; 
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.text-saci{
+  font-size: 18px;
+}
+
+
+.tag-acao {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  margin-right: 0.5rem;
+  
+}
+
+.tag-duo {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  
+}
+
+.tag-18{
+   padding: 0.2rem 1.2rem;
+  background-color: #AE2232;
+  border-radius: 10%;
+}
+
+.box-prevenda{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;            
+  gap: 1rem;                  
+  align-items: start;        
+  justify-content: space-between;
+}
+
+
+
+.game-card {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+.main-highlight{
+  width: 580px;
+}
+
+
+.btn-pre-venda {
+      border: 1px solid #1DD70C;
+      color: #1DD70C;
+      border-radius: 20px;
+      padding: 0.6rem 11rem 0.6rem 11rem;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+}
+
+    .btn-pre-venda:hover {
+      background-color: #0d7c16;
+    }
+
+    .thumbnail-img {
+      width: 100%;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    
+.footerr {
+  padding-top: 20rem;
+}
+
+#footer_logo {
+  margin-left: 4rem;
+  padding-left: 0rem;
+
+}
+
+#footer_contato {
+  padding-top: 1rem;
+  font-size: 30px;
+  padding-bottom: 0.8rem;
+}
+
+.footer-box{
+ width: 790px;
+}
+
+
+
+.list-unstyled {
+  padding-left: 0;
+  margin-top: 1.5rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  opacity: 64%;
+}
+
+
+
+
+.d-flex input{
+  height: 3.5em;
+  width: 18em;
+  background-color: transparent;
+margin-left: 5rem;
+}
+
+
+.d-flex2 button {
+  background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+#footer_redes{
+  padding-left: 9rem;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  display: flex;
+}
+
+.box-inscreva-se h6 {
+ padding-left: 2rem;
+}
+
+.product {
+  margin-right: 2rem;
+}
+
+.right{
+  margin-left: 8rem;
+}
+
+.quero {
+  background-color: #1CB80E;
+  margin-top: 1rem;
+  padding: 1rem 2rem 1rem 2rem;
+
+}
+
+.quero:hover {
+  background-color: #0d7c16;
+}
+
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  outline: none;
+}
+
+.social-icon:focus,
+.social-icon:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.social-icon:hover {
+  background-color: #1CB80E;
+  color: white;
+  border-color: #1CB80E;
+}
+
+
+
+.quero-receber{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+}
+
+/* lg: de 992px até 1199.98px (laptops) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar-toggler {
+background-color: #1DD70C;
+gap: 0rem;
+}
+
+#loginButton {
+    background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 0.3rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.nav-item{
+  font-size: 5px;
+}
+
+.hero {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero p, .hero h1 {
+  white-space: normal;
+  word-break: break-word;
+}
+
+
+#hero-conteudo {
+padding-left: 3rem;
+
+}
+
+.bg-image {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: url('img/capa-lista.png')  right center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 145vh;
+width: 100%;
+z-index: -1;
+opacity: 40%;
+}
+
+
+
+.btn-explorar {
+background-color: #1DD70C;
+color: #ffffff;
+font-weight: bold;
+border-radius: clamp(20px, 5vw, 40px);
+padding: clamp(0.5rem, 1vw, 1rem) clamp(0.5rem, 3vw, 3rem);
+font-size: clamp(0.8rem, 2vw, 1.2rem);
+
+}
+
+.btn-explorar:hover {
+background-color: #0d7c16;
+color: #001525;
+}
+
+.titulo-custom {
+font-size: 65px;
+font-weight: 800;
+color: #ffffff;
+padding-bottom: 1.3rem;
+}
+
+.subtitulo-custom {
+font-size: 18px;
+color: #ffffff;
+padding-bottom: 1rem;
+
+}
+
+
+
+
+#container_jogos {
+  margin-top: 400px;
+  
+}
+
+.text-center {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  
+}
+
+.sub-text {
+  font-size: 20px;
+  font-weight: lighter;
+ margin-bottom: 5rem;
+}
+
+.filter-btn{
+  padding: 0.8rem 4rem 0.8rem 4rem;
+  border-radius: 18px;
+  gap: 20px;
+}
+
+.card {
+      background-color: #001525;
+      border: none;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      position: relative;
+    }
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+
+
+
+
+    
+    .card-titulo {
+  font-size: 24px;
+  color: white;
+  padding-top: 1rem;
+}
+    .badge {
+      font-size: 0.9rem;
+    }
+    .price-old {
+      text-decoration: line-through;
+      color: #aaa;
+      font-size: 1rem;
+    }
+    .price-new {
+      color: #1DD70C;
+      font-weight: bold;
+      font-size: 24px;
+      
+    }
+    .filter-btn.active {
+      background-color: #1DD70C;
+      color: #ffffff;
+      border-color: #1DD70C;
+      
+    }
+
+#sort-select{
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  border-radius: 10px;
+  margin-top: 1.3rem;
+}
+
+
+
+
+#game-list {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list2{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list3{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+.bg-promo {
+  font-size: 18px;
+  background-color: #AE2232;
+}
+
+
+.text-warning {
+  padding-left: 2rem;
+  padding-bottom: -0.9rem;
+  margin-top: 0.5rem;
+}
+
+.text-small {
+  color: gray;
+  margin-top: 0.9rem;
+}
+
+.price-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.6rem;
+  gap:10px;
+  
+}
+
+.btn-carrinho {
+  background-color: #1CB80E; 
+  border: none;
+  border-radius: 50%;
+  padding: 0.8rem;
+  color: white; 
+}
+
+.btn-carrinho:hover {
+  background-color: #0d7c16;
+  
+}
+
+.game-card-em-breve-saci {
+  background-color: #001525;
+  border-radius: 2%;
+  margin-left: 2rem;
+  padding: 2rem 1rem 2rem 2rem;
+  height: 740px;
+  width: 500px;
+  
+
+}
+
+.game-card-em-breve {
+  background-color: #001525;
+  border-radius: 2%;
+  width: 23rem;
+  height: auto;
+  
+  
+
+}
+
+.card-lateral{
+  margin-right: 0rem;
+  
+}
+
+
+.em-breve{
+   background-image: url('img/gradiente lista.png'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 2200px;
+      width: 100%;
+      color: white;
+      margin-top: 30rem;
+      margin: 0;
+    
+}
+
+
+.img-fluid {
+  border-radius: 1rem;
+  max-width: 1150px; 
+  height: 450px;
+  width: 100%; 
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+.text-saci{
+  font-size: 18px;
+}
+
+
+.tag-acao {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  margin-right: 0.5rem;
+  
+}
+
+.tag-duo {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  
+}
+
+.tag-18{
+   padding: 0.2rem 1.2rem;
+  background-color: #AE2232;
+  border-radius: 10%;
+}
+
+.box-prevenda{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;            
+  gap: 1rem;                  
+  align-items: start;        
+  justify-content: space-between;
+}
+
+
+
+.game-card {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+.main-highlight{
+  width: 580px;
+}
+
+
+.btn-pre-venda {
+      border: 1px solid #1DD70C;
+      color: #1DD70C;
+      border-radius: 20px;
+      padding: 0.6rem 11rem 0.6rem 11rem;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+}
+
+    .btn-pre-venda:hover {
+      background-color: #0d7c16;
+    }
+
+    .thumbnail-img {
+      width: 100%;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    
+.footerr {
+  padding-top: 10rem;
+}
+
+#footer_logo {
+  margin-left: 4rem;
+  padding-left: 0rem;
+
+}
+
+#footer_contato {
+  padding-top: 1rem;
+  font-size: 30px;
+  padding-bottom: 0.8rem;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  margin-top: 1.5rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  opacity: 64%;
+}
+
+
+
+
+.d-flex input{
+  height: 3.5em;
+  width: 18em;
+  background-color: transparent;
+margin-left: 5rem;
+}
+
+
+.d-flex2 button {
+  background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+#footer_redes{
+  padding-left: 9rem;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  display: flex;
+}
+
+.box-inscreva-se h6 {
+ padding-left: 5rem;
+}
+
+
+
+
+.quero {
+  background-color: #1CB80E;
+  margin-top: 1rem;
+  padding: 1rem 5.3rem 1rem 5.3rem;
+
+}
+
+.quero:hover {
+  background-color: #0d7c16;
+}
+
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  outline: none;
+}
+
+.social-icon:focus,
+.social-icon:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.social-icon:hover {
+  background-color: #1CB80E;
+  color: white;
+  border-color: #1CB80E;
+}
+
+
+
+.quero-receber{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+}
+
+/* xl: de 1200px até 1399.98px (desktops grandes) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  
+.navbar-toggler {
+background-color: #1DD70C;
+gap: 0.5rem;
+}
+
+#loginButton {
+    background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 21px;
+  border-radius: 20px;
+  padding: 0.3rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.hero {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero p, .hero h1 {
+  white-space: normal;
+  word-break: break-word;
+}
+
+
+#hero-conteudo {
+padding-left: 3rem;
+
+}
+
+.bg-image {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: url('img/capa-lista.png')  right center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 145vh;
+width: 100%;
+z-index: -1;
+opacity: 40%;
+}
+
+
+
+.btn-explorar {
+background-color: #1DD70C;
+color: #ffffff;
+font-weight: bold;
+border-radius: clamp(20px, 5vw, 40px);
+padding: clamp(0.5rem, 1vw, 1rem) clamp(0.5rem, 3vw, 3rem);
+font-size: clamp(0.8rem, 2vw, 1.2rem);
+
+}
+
+.btn-explorar:hover {
+background-color: #0d7c16;
+color: #001525;
+}
+
+.titulo-custom {
+font-size: 80px;
+font-weight: 800;
+color: #ffffff;
+padding-bottom: 1.3rem;
+}
+
+.subtitulo-custom {
+font-size: 21px;
+color: #ffffff;
+padding-bottom: 1rem;
+
+}
+
+
+
+
+#container_jogos {
+  margin-top: 400px;
+  
+}
+
+.text-center {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  
+}
+
+.sub-text {
+  font-size: 20px;
+  font-weight: lighter;
+ margin-bottom: 5rem;
+}
+
+.filter-btn{
+  padding: 0.8rem 4rem 0.8rem 4rem;
+  border-radius: 18px;
+  gap: 20px;
+}
+
+.card {
+      background-color: #001525;
+      border: none;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      position: relative;
+    }
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+
+
+
+
+    
+    .card-titulo {
+  font-size: 24px;
+  color: white;
+  padding-top: 1rem;
+}
+    .badge {
+      font-size: 0.9rem;
+    }
+    .price-old {
+      text-decoration: line-through;
+      color: #aaa;
+      font-size: 1rem;
+    }
+    .price-new {
+      color: #1DD70C;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    .filter-btn.active {
+      background-color: #1DD70C;
+      color: #ffffff;
+      border-color: #1DD70C;
+      
+    }
+
+#sort-select{
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  border-radius: 10px;
+  margin-top: 1.3rem;
+}
+
+
+
+
+#game-list {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list2{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list3{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+.bg-promo {
+  font-size: 18px;
+  background-color: #AE2232;
+}
+
+
+.text-warning {
+  padding-left: 2rem;
+  padding-bottom: -0.9rem;
+  margin-top: 0.5rem;
+}
+
+.text-small {
+  color: gray;
+  margin-top: 0.9rem;
+}
+
+.price-box {
+  display: flex;
+  margin-top: 1.6rem;
+  gap:10px;
+  
+}
+
+.btn-carrinho {
+  background-color: #1CB80E; 
+  border: none;
+  border-radius: 50%;
+  padding: 0.8rem;
+  color: white; 
+}
+
+.btn-carrinho:hover {
+  background-color: #0d7c16;
+  
+}
+
+.game-card-em-breve-saci {
+  background-color: #001525;
+  border-radius: 2%;
+  margin-left: 2rem;
+  padding: 2rem 1rem 2rem 2rem;
+  height: 740px;
+  
+
+}
+
+.game-card-em-breve {
+  background-color: #001525;
+  border-radius: 2%;
+  width: 23rem;
+  height: auto;
+  
+  
+
+}
+
+.em-breve{
+   background-image: url('img/gradiente lista.png'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 2200px;
+      width: 100%;
+      color: white;
+      margin-top: 30rem;
+      margin: 0;
+    
+}
+
+
+.img-fluid {
+  border-radius: 1rem;
+  max-width: 1150px; 
+  height: 450px;
+  width: 100%; 
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+
+
+.tag-acao {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  margin-right: 0.5rem;
+  
+}
+
+.tag-duo {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  
+}
+
+.tag-18{
+   padding: 0.2rem 1.2rem;
+  background-color: #AE2232;
+  border-radius: 10%;
+}
+
+.box-prevenda{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;            
+  gap: 1rem;                  
+  align-items: center;        
+  justify-content: space-between;
+}
+
+
+
+.game-card {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+
+
+
+.btn-pre-venda {
+      border: 1px solid #1DD70C;
+      color: #1DD70C;
+      border-radius: 20px;
+      padding: 0.6rem 19rem 0.6rem 19rem;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+}
+
+    .btn-pre-venda:hover {
+      background-color: #0d7c16;
+    }
+
+    .thumbnail-img {
+      width: 100%;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    
+.footerr {
+  padding-top: 10rem;
+}
+
+#footer_logo {
+  margin-left: 4rem;
+  padding-left: 0rem;
+
+}
+
+#footer_contato {
+  padding-top: 1rem;
+  font-size: 30px;
+  padding-bottom: 0.8rem;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  margin-top: 1.5rem;
+  gap: 3rem;
+  display: flex;
+  flex-direction: column;
+  opacity: 64%;
+}
+
+
+
+
+.d-flex input{
+  height: 3.5em;
+  width: 18em;
+  background-color: transparent;
+margin-left: 5rem;
+}
+
+
+.d-flex2 button {
+  background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+#footer_redes{
+  padding-left: 9rem;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  display: flex;
+}
+
+.box-inscreva-se h6 {
+ padding-left: 5rem;
+}
+
+
+.quero {
+  background-color: #1CB80E;
+}
+
+.quero:hover {
+  background-color: #0d7c16;
+}
+
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  outline: none;
+}
+
+.social-icon:focus,
+.social-icon:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.social-icon:hover {
+  background-color: #1CB80E;
+  color: white;
+  border-color: #1CB80E;
+}
+
+
+
+
+
+
+
+
+/* xxl: a partir de 1400px (telas muito grandes) */
+@media (min-width: 1400px) {
+
+.navbar-toggler {
+background-color: #1DD70C;
+gap: 0.5rem;
+}
+
+#loginButton {
+    background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 21px;
+  border-radius: 20px;
+  padding: 0.3rem 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.hero {
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.hero p, .hero h1 {
+  white-space: normal;
+  word-break: break-word;
+}
+
+
+#hero-conteudo {
+padding-left: 3rem;
+
+}
+
+.bg-image {
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+background: url('img/capa-lista.png')  right center;
+background-size:cover;
+background-repeat: no-repeat;
+height: 145vh;
+width: 100%;
+z-index: -1;
+}
+
+
+.btn-explorar {
+background-color: #1DD70C;
+color: #ffffff;
+font-weight: bold;
+border-radius: clamp(20px, 5vw, 40px);
+padding: clamp(0.5rem, 1vw, 1rem) clamp(0.5rem, 3vw, 3rem);
+font-size: clamp(0.8rem, 2vw, 1.2rem);
+
+}
+
+.btn-explorar:hover {
+background-color: #0d7c16;
+color: #001525;
+}
+
+.titulo-custom {
+font-size: 80px;
+font-weight: 800;
+color: #ffffff;
+padding-bottom: 1.3rem;
+}
+
+.subtitulo-custom {
+font-size: 21px;
+color: #ffffff;
+padding-bottom: 1rem;
+
+}
+
+#container_jogos {
+  margin-top: 400px;
+  
+}
+
+.text-center {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  
+}
+
+.sub-text {
+  font-size: 20px;
+  font-weight: lighter;
+ margin-bottom: 5rem;
+}
+
+.filter-btn{
+  padding: 0.8rem 4rem 0.8rem 4rem;
+  border-radius: 18px;
+  gap: 20px;
+}
+
+.card {
+      background-color: #001525;
+      border: none;
+      border-radius: 0.5rem;
+      overflow: hidden;
+      position: relative;
+    }
+    .card-img-top {
+      height: 300px;
+      object-fit: cover;
+      width: 100%;
+    }
+
+    .card-titulo {
+  font-size: 24px;
+  color: white;
+  padding-top: 1rem;
+}
+    .badge {
+      font-size: 0.9rem;
+    }
+    .price-old {
+      text-decoration: line-through;
+      color: #aaa;
+      font-size: 1rem;
+    }
+    .price-new {
+      color: #1DD70C;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    .filter-btn.active {
+      background-color: #1DD70C;
+      color: #ffffff;
+      border-color: #1DD70C;
+      
+    }
+
+#sort-select{
+  padding: 0.8rem 1rem 0.8rem 1rem;
+  border-radius: 10px;
+  margin-top: 1.3rem;
+}
+
+
+#game-list {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list2{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+#game-list3{
+  margin-top: -1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  
+}
+
+.bg-promo {
+  font-size: 18px;
+  background-color: #AE2232;
+}
+
+
+.text-warning {
+  padding-left: 2rem;
+  padding-bottom: -0.9rem;
+  margin-top: 0.5rem;
+}
+
+.text-small {
+  color: gray;
+  margin-top: 0.9rem;
+}
+
+.price-box {
+  display: flex;
+  margin-top: 1.6rem;
+  gap:10px;
+  
+}
+
+.btn-carrinho {
+  background-color: #1CB80E; 
+  border: none;
+  border-radius: 50%;
+  padding: 0.8rem;
+  color: white; 
+}
+
+.btn-carrinho:hover {
+  background-color: #0d7c16;
+  
+}
+
+.game-card-em-breve-saci {
+  background-color: #001525;
+  border-radius: 2%;
+  margin-left: 5rem;
+  padding: 2rem 1rem 2rem 2rem;
+  
+          
+  height: auto;
+  
+
+}
+
+.game-card-em-breve {
+  background-color: #001525;
+  border-radius: 2%;
+  width: 23rem;
+  height: auto;
+  
+  
+
+}
+
+.em-breve{
+   background-image: url('img/gradiente lista.png'); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 2200px;
+      width: 100%;
+      color: white;
+      margin-top: 30rem;
+      margin: 0;
+    
+}
+
+
+.img-fluid {
+  width: 100%;
+  height: 0%;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 1150px; 
+  max-height: 520px;
+ height: auto; width: 100%; 
+  display: block;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+
+.tag-acao {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  margin-right: 0.5rem;
+  
+}
+
+.tag-duo {
+  padding: 0.2rem 1.2rem;
+  background-color: #1CB80E;
+  border-radius: 10%;
+  
+}
+
+.tag-18{
+   padding: 0.2rem 1.2rem;
+  background-color: #AE2232;
+  border-radius: 10%;
+}
+
+.box-prevenda{
+  display: flex;
+  flex-wrap: wrap;            
+  gap: 1rem;                  
+  align-items: center;        
+  justify-content: space-between;
+}
+
+.game-card {
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+.btn-pre-venda {
+      border: 1px solid #1DD70C;
+      color: #1DD70C;
+      border-radius: 20px;
+      padding: 0.6rem 9rem 0.6rem 8rem;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn-pre-venda:hover {
+      background-color: #0d7c16;
+    }
+
+    .thumbnail-img {
+      width: 100%;
+      height: 70px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+.footerr {
+  padding-top: 10rem;
+}
+
+#footer_logo {
+  margin-left: 9rem;
+  padding-bottom: 4rem;
+}
+
+#footer_contato {
+  padding-top: 1rem;
+  font-size: 30px;
+  padding-bottom: 0.8rem;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  margin-top: 1.5rem;
+  gap: 4rem;
+  display: flex;
+  flex-direction: column;
+  opacity: 64%;
+}
+
+.d-flex input{
+  height: 3.5em;
+  width: 18em;
+  background-color: transparent;
+
+}
+
+
+.d-flex2 button {
+  background-color: #1CB80E;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  margin-left: 1.5rem;
+  transition: background-color 0.3s ease;
+}
+
+#footer_redes{
+  padding-left: 9rem;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  display: flex;
+}
+
+
+
+
+.quero {
+  background-color: #1CB80E;
+}
+
+.quero:hover {
+  background-color: #0d7c16;
+}
+
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  outline: none;
+}
+
+.social-icon:focus,
+.social-icon:active {
+  outline: none;
+  box-shadow: none;
+}
+
+.social-icon:hover {
+  background-color: #1CB80E;
+  color: white;
+  border-color: #1CB80E;
+}
+
+
+
+}
+
+
+
+}
